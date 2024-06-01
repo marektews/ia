@@ -66,10 +66,10 @@ function isFinished(value) {
             class="form-control form-select-lg"
             list="hints"
             placeholder="Wpisz 3 znaki i poczekaj chwilkę"
-            title="Wpisz 3 znaki i poczekaj chwilkę, a pojawi się lista podpowiedzi ułatwiająca wybór nazwy zboru"
+            title="Wpisz 3 znaki i poczekaj chwilkę, aż pojawi się lista podpowiedzi ułatwiająca wybór nazwy zboru"
         />
         <small>
-            Wpisz 3 znaki i poczekaj chwilkę, a pojawi się lista podpowiedzi ułatwiająca wybór nazwy zboru
+            Wpisz 3 znaki i poczekaj chwilkę, aż pojawi się lista podpowiedzi ułatwiająca wybór nazwy zboru
         </small>
 
         <datalist id="hints">
