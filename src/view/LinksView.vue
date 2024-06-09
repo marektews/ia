@@ -97,8 +97,8 @@ function format_pilots(item) {
                 </p>
                 
                 <a 
-                    href="Informacja dla pilotów i kierowców 2023.pdf" 
-                    download="Informacja dla pilotów i kierowców 2023.pdf" 
+                    href="Informacja dla pilotów i kierowców.pdf" 
+                    download="Informacja dla pilotów i kierowców.pdf" 
                     class="btn btn-lg btn-primary"
                 >
                     <i class="fa-solid fa-file-pdf" />
