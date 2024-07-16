@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from 'vue'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faRegistered } from '@fortawesome/free-solid-svg-icons'
 
 import IntroView from './view/IntroView.vue'
 import CongregationView from './view/CongregationView.vue'
@@ -15,7 +17,7 @@ let congregation = ref("")
 <template>
     <div class="container">
         <header>
-            <i class="fa-solid fa-registered fa-2xl" />
+            <FontAwesomeIcon :icon="faRegistered" size="2xl" />
             <div>Identyfikatory autobusów</div>
         </header>
 

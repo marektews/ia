@@ -1,5 +1,8 @@
 <script setup>
 import { ref } from 'vue'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+
 
 const props = defineProps(['congregation'])
 
@@ -66,7 +69,7 @@ function format_pilots(item) {
                         <h6 class="text-muted">Pilot: {{ format_pilots(item) }}</h6>
                         <!-- <div>{{ item }}</div> -->
                         <button class="mt-2 btn btn-lg btn-primary" @click="onDownloadPassID(item.id)">
-                            <i class="fa-solid fa-file-pdf" />
+                            <FontAwesomeIcon :icon="faFilePdf" />
                             Pobierz identyfikator
                         </button>
                     </div>
@@ -80,7 +83,7 @@ function format_pilots(item) {
                             <h6 class="text-muted">Pilot: {{ format_pilots(item) }}</h6>
                             <!-- <div>{{ item }}</div> -->
                             <button class="mt-2 btn btn-lg btn-primary" @click="onDownloadPassID(item.id)">
-                                <i class="fa-solid fa-file-pdf" />
+                                <FontAwesomeIcon :icon="faFilePdf" />
                                 Pobierz identyfikator
                             </button>
                         </li>
@@ -101,7 +104,7 @@ function format_pilots(item) {
                     download="Informacja dla pilotów i kierowców.pdf" 
                     class="btn btn-lg btn-primary"
                 >
-                    <i class="fa-solid fa-file-pdf" />
+                    <FontAwesomeIcon :icon="faFilePdf" />
                     Pobierz plik
                 </a>
             </div>
