@@ -100,8 +100,8 @@ function format_pilots(item) {
                 </p>
                 
                 <a 
-                    href="Informacja dla pilotów i kierowców.pdf" 
-                    download="Informacja dla pilotów i kierowców.pdf" 
+                    href="Informacja-dla-pilotow-i-kierowcow.pdf" 
+                    download="Informacja-dla-pilotow-i-kierowcow.pdf" 
                     class="btn btn-lg btn-primary"
                 >
                     <FontAwesomeIcon :icon="faFilePdf" />
