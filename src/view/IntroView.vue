@@ -1,5 +1,5 @@
 <script setup>
-defineEmits('next')
+const emit = defineEmits(['next'])
 </script>
 
 <template>
@@ -8,7 +8,7 @@ defineEmits('next')
             Zaloguj się za pomocą otrzymanych danych, pobierz i wydrukuj identyfikator.
         </div>
 
-        <button class="mt-5 btn btn-lg btn-outline-primary" @click="$emit('next')">
+        <button class="mt-5 btn btn-lg btn-outline-primary" @click="emit('next')">
             ZACZYNAMY
         </button>
 
